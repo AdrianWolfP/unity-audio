@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class OptionsMenu : MonoBehaviour
 {
-    public Button 
     public void Back()
     {
         string sceneName= PlayerPrefs.GetString("lastScene");
